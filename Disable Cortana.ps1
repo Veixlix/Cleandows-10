@@ -3,7 +3,6 @@
 Write-Host "Disabling Cortana"
     $Cortana1 = "HKCU:\SOFTWARE\Microsoft\Personalization\Settings"
     $Cortana2 = "HKCU:\SOFTWARE\Microsoft\InputPersonalization"
-    $Cortana3 = "HKCU:\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore"
 	If (!(Test-Path $Cortana1)) {
 		New-Item $Cortana1
 	}
@@ -13,7 +12,3 @@ Write-Host "Disabling Cortana"
 	}
 	Set-ItemProperty $Cortana2 RestrictImplicitTextCollection -Value 1 
 	Set-ItemProperty $Cortana2 RestrictImplicitInkCollection -Value 1 
-	If (!(Test-Path $Cortana3)) {
-		New-Item $Cortana3
-	}
-	Set-ItemProperty $Cortana3 HarvestContacts -Value 0
