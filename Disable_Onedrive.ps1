@@ -3,10 +3,11 @@
 # Again this can cause a lot of DAMAGE right phill? even flex seal won't fix it. you have been warned
 # get onedrive back again here https://onedrive.live.com/about/en-us/download/ hit the "Need to reinstall? click here to download.`
 
+# Beginning process
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\force-mkdir.psm1
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\take-own.psm1
 
-Write-Output "Slaughtering all Onedrives"
+Write-Output "Killing processes"
 taskkill.exe /F /IM "OneDrive.exe"
 taskkill.exe /F /IM "explorer.exe"
 
@@ -39,7 +40,7 @@ mkdir -Force "HKCR:\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}"
 Set-ItemProperty "HKCR:\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" "System.IsPinnedToNameSpaceTree" 0
 Remove-PSDrive "HKCR"
 
-# okay this is actually epic
+
 Write-Output "Removing onedrive for new users"
 reg load "hku\Default" "C:\Users\Default\NTUSER.DAT"
 reg delete "HKEY_USERS\Default\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "OneDriveSetup" /f
@@ -48,8 +49,6 @@ reg unload "hku\Default"
 Write-Output "Removing from startmenu"
 Remove-Item -Force -ErrorAction SilentlyContinue "$env:userprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OneDrive.lnk"
 
-Write-Output "Removing scheduled task"
-Get-ScheduledTask -TaskPath '\' -TaskName 'OneDrive*' -ea SilentlyContinue | Unregister-ScheduledTask -Confirm:$false
 
 Write-Output "Restarting explorer"
 Start-Process "explorer.exe"
