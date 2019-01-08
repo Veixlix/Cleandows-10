@@ -6,6 +6,7 @@ this is a work inprogress scripts can stop working after a major windows update.
 Any suggestions can be send to my discord
 
 LIST OF REMOVED DEFAULT APPS WHEN RUNNING "Remove-Default-Apps
+        
         "*Microsoft.BingNews*"
         "*Microsoft.GetHelp*"
         "*Microsoft.Getstarted*"
