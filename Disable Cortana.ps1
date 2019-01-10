@@ -1,6 +1,6 @@
 # this will disable cortana.
 
-Write-Host "Disabling Cortana"
+Write-Output "Disabling Cortana"
     $Cortana1 = "HKCU:\SOFTWARE\Microsoft\Personalization\Settings"
     $Cortana2 = "HKCU:\SOFTWARE\Microsoft\InputPersonalization"
 	If (!(Test-Path $Cortana1)) {
