@@ -4,9 +4,6 @@ I am not responsible in anyway for damage done to your windows/machine. Use at y
 
 this is a work inprogress scripts can stop working after a major windows update. Notify me on discord Ignacio#1801 or make a issue here.
 Any suggestions can be send to my discord
-
-
-
 LIST OF REMOVED DEFAULT APPS WHEN RUNNING "Remove-Default-Apps
         
         "*Microsoft.BingNews*"
