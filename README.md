@@ -1,4 +1,7 @@
 # Cleandows-10
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8b448bc6d7e8486bbbaa7dfaaf5f802e)](https://app.codacy.com/app/Ignaciox/Cleandows-10?utm_source=github.com&utm_medium=referral&utm_content=Ignaciox/Cleandows-10&utm_campaign=Badge_Grade_Settings)
+
 Bunch of scripts that help disable unwanted features.
 I am not responsible in anyway for damage done to your windows/machine. Use at your own risk, i am not liable for any losses and damages for using these scripts.
 
