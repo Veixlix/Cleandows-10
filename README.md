@@ -1,11 +1,11 @@
-# Cleandows-10
+# Cleandows-10 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fac49d5609114ec883b3a4c16c73b592)](https://www.codacy.com/app/Ignaciox/Cleandows-10?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ignaciox/Cleandows-10&amp;utm_campaign=Badge_Grade)
 Bunch of scripts that help disable unwanted features.
 I am not responsible in anyway for damage done to your windows/machine. Use at your own risk, i am not liable for any losses and damages for using these scripts.
 
 this is a work inprogress scripts can stop working after a major windows update. Notify me on discord Ignacio#1801 or make a issue here.
 Any suggestions can be send to my discord
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fac49d5609114ec883b3a4c16c73b592)](https://www.codacy.com/app/Ignaciox/Cleandows-10?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ignaciox/Cleandows-10&amp;utm_campaign=Badge_Grade)
+
 
 LIST OF REMOVED DEFAULT APPS WHEN RUNNING "Remove-Default-Apps
         
