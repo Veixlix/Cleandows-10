@@ -1,7 +1,7 @@
 #   Description:
 # This script will remove and disable OneDrive. i am not responsible for any damage done
 # Again this can cause a lot of DAMAGE right phill? even flex seal won't fix it. you have been warned
-# get onedrive back again here https://onedrive.live.com/about/en-us/download/ hit the "Need to reinstall? click here to download.`
+# get onedrive back again here https://onedrive.live.com/about/en-us/download/ hit the "Need to reinstall? 
 
 # Beginning process
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\force-mkdir.psm1
@@ -30,7 +30,7 @@ If ((Get-ChildItem "$env:userprofile\OneDrive" -Recurse | Measure-Object).Count 
 
 Write-Output "Killing onedrive infront of google drive"
 force-mkdir "HKLM:\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\OneDrive"
-Set-ItemProperty "HKLM:\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\OneDrive" "DisableFileSyncNGSC" 1
+Set-ItemProperty "HKLM:\Software\Wow6432Node\Policies\Microsoft\Windows\OneDrive" "DisableFileSyncNGSC" 1
 
 Write-Output "Remove Onedrive from explorer sidebar"
 New-PSDrive -PSProvider "Registry" -Root "HKEY_CLASSES_ROOT" -Name "HKCR"
