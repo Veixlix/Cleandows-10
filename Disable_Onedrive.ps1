@@ -19,7 +19,7 @@ if (Test-Path "$env:systemroot\SysWOW64\OneDriveSetup.exe") {
     & "$env:systemroot\SysWOW64\OneDriveSetup.exe" /uninstall
 }
 
-Write-Output "Rounding them all up"
+Write-Output "Rounding tall leftovers up and removing them"
 Remove-Item -Recurse -Force -ErrorAction SilentlyContinue "$env:localappdata\Microsoft\OneDrive"
 Remove-Item -Recurse -Force -ErrorAction SilentlyContinue "$env:programdata\Microsoft OneDrive"
 Remove-Item -Recurse -Force -ErrorAction SilentlyContinue "$env:systemdrive\OneDriveTemp"
@@ -28,11 +28,11 @@ If ((Get-ChildItem "$env:userprofile\OneDrive" -Recurse | Measure-Object).Count 
     Remove-Item -Recurse -Force -ErrorAction SilentlyContinue "$env:userprofile\OneDrive"
 }
 
-Write-Output "Killing onedrive infront of google drive"
+Write-Output "Removing onedrive from GP"
 force-mkdir "HKLM:\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\OneDrive"
 Set-ItemProperty "HKLM:\Software\Wow6432Node\Policies\Microsoft\Windows\OneDrive" "DisableFileSyncNGSC" 1
 
-Write-Output "Remove Onedrive from explorer sidebar"
+Write-Output "Remove Onedrive from sidebar"
 New-PSDrive -PSProvider "Registry" -Root "HKEY_CLASSES_ROOT" -Name "HKCR"
 mkdir -Force "HKCR:\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}"
 Set-ItemProperty "HKCR:\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" "System.IsPinnedToNameSpaceTree" 0
