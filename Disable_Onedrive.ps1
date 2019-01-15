@@ -53,7 +53,7 @@ Remove-Item -Force -ErrorAction SilentlyContinue "$env:userprofile\AppData\Roami
 Write-Output "Restarting explorer"
 Start-Process "explorer.exe"
 
-Write-Output "Waiting for explorer to complete 
+Write-Output "Waiting for explorer to ##complete"
 Start-Sleep 10
 
 Write-Output "Removing OneDrive leftovers"
