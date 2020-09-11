@@ -1,4 +1,4 @@
-# Cleandows-10[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+# Cleandows-10 [![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 Bunch of scripts that help disable unwanted features. 
 Here is a review for it by MrPowerScripts https://www.youtube.com/watch?v=XMK3ZAazprM&t
 I am not responsible in anyway for damage done to your Windows or Machine. Use at your own risk, i am not liable for any losses and damages for using these scripts.THIS WAS NOT MADE FOR THE INTENT OF PRIVACY OR CONSIDERED A DEBLOAT SCRIPT. these are things that some people are unable to get rid of without returning the following day
