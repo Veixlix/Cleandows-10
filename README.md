@@ -3,7 +3,7 @@
 - Confirmed working on Windows 10 (2004)
 - Here is a review for it by MrPowerScripts https://www.youtube.com/watch?v=XMK3ZAazprM&t
 - Here is gitlab if you prefer it over github:https://gitlab.com/Ignaciox/Cleandows-10
- Remove-Default-Apps Content
+- Remove-Default-Apps Content
    
         "*Microsoft.BingNews*"
         "*Microsoft.GetHelp*"
