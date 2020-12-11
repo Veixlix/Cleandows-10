@@ -1,11 +1,10 @@
 # Cleandows-10 [![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
-Bunch of scripts that help disable unwanted features on windows.
-Confirmed working on Windows 10 (2004)
-Here is a review for it by MrPowerScripts https://www.youtube.com/watch?v=XMK3ZAazprM&t
-Here is gitlab if you prefer it over github:https://gitlab.com/Ignaciox/Cleandows-10
-LIST OF REMOVED DEFAULT APPS WHEN RUNNING "Remove-Default-Apps
-
-        
+- Bunch of scripts that help disable unwanted features on windows.
+- Confirmed working on Windows 10 (2004)
+- Here is a review for it by MrPowerScripts https://www.youtube.com/watch?v=XMK3ZAazprM&t
+- Here is gitlab if you prefer it over github:https://gitlab.com/Ignaciox/Cleandows-10
+ Remove-Default-Apps Content
+   
         "*Microsoft.BingNews*"
         "*Microsoft.GetHelp*"
         "*Microsoft.Getstarted*"
