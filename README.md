@@ -1,4 +1,4 @@
-# Cleandows-10 [![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+# Cleandows-10 ![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)
 - Bunch of scripts that help disable unwanted features on windows.
 - Confirmed working on Windows 10 (2004)
 - Here is a review for it by MrPowerScripts https://www.youtube.com/watch?v=XMK3ZAazprM&t
